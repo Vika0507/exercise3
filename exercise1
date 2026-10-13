@@ -1,0 +1,11 @@
+<?php
+$languages = ['PHP', 'JavaScript', 'Python'];
+
+echo "Второй элемент массива: " . $languages[1] . "\n";
+
+echo "Весь массив:\n";
+foreach ($languages as $language) {
+    echo $language . "\n";
+}
+
+echo "\n";

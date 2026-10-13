@@ -1,0 +1,11 @@
+<?php
+$months = ['январь', 'февраль', 'март', 'апрель'];
+
+$key = array_search('март', $months);
+if ($key !== false) {
+    unset($months[$key]);
+}
+
+print_r($months);
+
+echo "\n";
